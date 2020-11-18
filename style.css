@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+html{
+    font-family: "Roboto Lt", sans-serif;
+    font-size: 10px;
+    color: #333;
+} 
+header{
+    height: 70px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 25px;
+}
+.shop{
+    width: 40px;
+}
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.logo{
+    width: 5rem;
+    box-sizing: content-box;
+    padding-left: 3rem;
+    height: 100%;
+    width: 70px;
+    padding: 25px;
+}
+.shop{
+    padding-right: 3rem;
+    height: 100%;
+    width: 70px;
+}
+.borders{
+    display: block;
+    justify-content: space-between;
+    margin: 10px;
+    border: none;
+}
+.description{
+    width: 25%;
+    margin: 20px;
+    height: 260px;
+}
+.col{
+    height: 250px;
+    position: relative;
+    margin-top: -1px;
+}
+
+.goods-text{
+    display: block;
+    margin-left: 20px;
+}
+.clothes{
+    display: flex;
+}
+
+
+.box-center{
+    border: 1px solid black;
+    text-align: center;
+    top: 80%; 
+    left: 50%;
+    width: 70%;
+    height:  10px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    font-size: 20px;
+    background-color: white;
+    opacity: 0.5;
+}
+span{
+    display: flex;
+   justify-content: space-between;
+   color: grey;
+   font-size: large;  
+}  
